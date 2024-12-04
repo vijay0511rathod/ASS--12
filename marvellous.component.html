@@ -1,0 +1,53 @@
+
+<div class="container-fluid">
+    <div class="text-center">        
+        <h1 style="text-align: center;">
+            <span style="color: purple;">Contact Our</span> <br> Customer Support Center
+        </h1>
+        <img src="laptop.jpg" class="img-thumbnail img-center" alt="...">
+
+    </div>    
+      <div>
+        <div>
+            <h2 style="text-align: center;">Contact Information</h2>
+            <h6 style="text-align: center;"> Please fill out your contact information below</h6>
+        </div>
+      </div>
+      <form [formGroup]="MarvellousForm">
+        <div class="row">
+            <label for="username"> Name * </label>
+            <div class="col-3">
+               
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+        </div>
+        <div class="row">
+            <label for="email"> Email * </label>
+            <div class="col-9">
+               
+                <input type="text" class="form-control" >
+            </div>
+            </div>
+            <div class="row">
+                <label for="phoneno"> Phone * </label>
+                <div class="col-9">
+                   
+                    <input type="text" class="form-control" >
+                </div>
+                </div>
+                <div class="row">
+                    <label for="address"> Address * </label>
+                    <div class="col-9">
+                       
+                        <input type="text" class="form-control" >
+                    </div>
+                    </div><br>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary mx-2">Submit</button>
+                        <button type="reset" class="btn btn-primary mx-2">Reset</button>
+                    </div>              
+         </form>  
+</div>
